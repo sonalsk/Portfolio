@@ -1,0 +1,45 @@
+<h2 id="experience" class="section-heading">Work Experience</h2>
+
+<section id="timeline">
+  <ul>
+    {% for item in site.data.experience %}
+    <li>
+      <div class="timeline-card info">
+        <img class="icon" src="./assets/img/experience/{{ item.logo }}" />
+        
+        <h4 class="title">{{ item.role }}</h4>
+        <p class="location">{{ item.company }} </p>
+        <p class="dates">{{ item.dates }} </p>
+        <br>
+        <p>{{ item.desc }}</p>
+      </div>
+    </li>
+
+    {% endfor %}
+  </ul>
+</section>
+
+<script>
+  const items = document.querySelectorAll("#timeline li");
+  const isInViewport = (el) => {
+    const rect = el.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <=
+        (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  };
+  const run = () =>
+    items.forEach((item) => {
+      if (isInViewport(item)) {
+        item.classList.add("show");
+      }
+    });
+
+  // Events
+  window.addEventListener("load", run);
+  window.addEventListener("resize", run);
+  window.addEventListener("scroll", run);
+</script>
