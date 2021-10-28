@@ -1,18 +1,22 @@
 <h2 id="projects" class="section-heading" >Projects</h2>
+
 <div class="animated animatedFadeInUp fadeInUp">
+
   <div class="container card-container">
     {% for item in site.data.projects %}
     <a href="#{{ item.modal-name }}">
+      
       <div class="card">
-        <div class="info">
 
+        <div class="info">
+          
           <div class="project-img">
-            <img src="./assets/img/education/{{ item.logo }}">
+            <img src="./assets/img/projects/{{ item.logo }}">
           </div>
 
           <p class="title">{{ item.title }}</p>
           <p class="location">{{ item.event }}</p>
-          <p class="dates">{{ item.date }}</p>
+          <!-- <a class="location" href="{{ item.link }}">Project Link</a> -->
         </div>
       </div>
     </a>

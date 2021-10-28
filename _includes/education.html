@@ -1,18 +1,27 @@
-<h2 id="education" class="section-heading">Education</h2>
+<h2 id="education" class="section-heading"> Education </h2>
+
 <div class="animated animatedFadeInUp fadeInUp">
-  <div class="container card-container card-container-education">
+
+  <div class="container card-container">
+
       {% for item in site.data.education %}
       <div class="card">
-        <div class="icon">
+        
+        <div class="icon mr-2">
           <img src="./assets/img/education/{{ item.logo }}">
         </div>
+        
         <div class="info">
           <p class="title">{{ item.course }}</p>
+          <p class="major">{{ item.major }}</p>
+          <p class="location">{{ item.grade }}</p>
           <p class="location">{{ item.institute }}</p>
           <p class="dates">{{ item.dates }}</p>
         </div>
+        
       </div>
+
       {% endfor %}
+
   </div>
 </div>
-  

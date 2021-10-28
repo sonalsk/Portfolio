@@ -4,9 +4,7 @@
   <ul>
     {% for item in site.data.experience %}
     <li>
-      <div class="timeline-card info">
-        <img class="icon" src="./assets/img/experience/{{ item.logo }}" />
-        
+      <div class="timeline-card info">        
         <h4 class="title">{{ item.role }}</h4>
         <p class="location">{{ item.company }} </p>
         <p class="dates">{{ item.dates }} </p>
@@ -14,7 +12,7 @@
         <p>{{ item.desc }}</p>
       </div>
     </li>
-
+    
     {% endfor %}
   </ul>
 </section>

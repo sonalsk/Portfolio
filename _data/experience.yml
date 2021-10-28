@@ -1,11 +1,24 @@
-- role: Pre Fellowship Fellow
-  company: MLH Fellowship
-  dates: Summer 2021
-  logo: fellowship.svg
-  desc: Fugiat fugiat officia exercitation adipisicing ut Lorem nisi ad mollit minim id eu mollit.
+- role: MLH Fellow - Pre-Fellowship
+  company: Major League Hacking
+  dates: July 2021 - Aug 2021
+  desc: Got selected among the 60 fellows for an internship alternative educational program. Worked on building my portfolio of personal projects & experimenting with new technologies by collaborating in small groups. Developed a VS Code extension to group together various developer tools like reminders, github notifications, theme changer, to-do etc.
 
-- role: Undergraduate Student
-  company: College XYZ
-  dates: Summer 2021
-  logo: fellowship.svg
-  desc: Veniam in non enim adipisicing fugiat laboris ad in velit magna ullamco do do.
+- role: Microsoft Engage Mentee
+  company: Microsoft
+  dates: June 2021 - July 2021
+  desc: Got selected as a mentee in the Microsoft Engage Mentorship Program. It is a month-long development program, where selected mentees have to work on building projects and collaborating with their teams. Worked on building a Microsoft Teams Clone using React and webRTC. earnt the art of working in a professional environment, following Agile Methodology while working on a large scale project and working in teams.
+
+- role: Women Techmakers Engineering Fellow
+  company: Google and TalentSprint
+  dates: Mar 2020 - Present
+  desc: Got selected as a Women Techmakers Engineering Fellow, also know as WE TalentSprint Scholar, among the top 126 participants consisting of over 15,000+ applicants across India. Worked on projects in Python and App Development, participated in weekly contests & practiced presentation skills. Led a team of 7 to develop a website for TalentSprint showcasing the top projects developed by WTEF Cohort 2.
+
+- role: Code for AnitaB Mentee
+  company: AnitaB.org
+  dates: May 2020 – August 2020
+  desc: Got selected as a Mentee for JavaScript under a mentorship program by AnitaB.org. It consists of of online sessions, coding tasks and mentorship. Learnt JavaScript from FreeCodeCamp as a Mentee under the JavaScript Track.
+
+- role: WooTech Mentee
+  company: WooTech
+  dates: Dec 2019 - Feb 2020
+  desc: Got selected as Mentee under a remote mentorship program by WooTech. Worked on an open source web application which allows users to rent out and rent in different items according to their respective categories.

@@ -1,18 +1,46 @@
-- title: Task Tracker
-  event: MLH Fellowship Pre Fellowship Project
-  date: Summer 2021  - Batch 3.5
-  modal-name: project
-  logo: social-link.jpg
+- title: Bridge
+  event: JavaScript, React, webRTC, Socket.IO
+  modal-name: Bridge
+  logo: Bridge.png
 
-- title: Task Tracker
-  event: MLH Fellowship Pre Fellowship Project
-  date: Summer 2021  - Batch 3.5
-  modal-name: project
-  logo: social-link.jpg
+- title: The Infanzia Series
+  event: Flutter, Dart, Firebase
+  modal-name: Infanzia
+  logo: Infanzia.png
 
-- title: Task Tracker
-  event: MLH Fellowship Pre Fellowship Project
-  date: Summer 2021  - Batch 3.5
-  modal-name: project
-  logo: social-link.jpg
+- title: HireND
+  event: HTML, CSS, JavaScript, Express, MongoDB
+  modal-name: HireND
+  logo: HireND.png
 
+
+- title: ELIF by SHAO
+  event: JavaScript, TypeScript
+  modal-name: ELIF
+  logo: elif.png
+
+- title: RememberME
+  event: Flutter, Dart, Firebase, Dialog Flow
+  modal-name: RememberME
+  logo: RememberME.png
+
+- title: Sahayika
+  event: HTML, CSS, JavaScript, Django
+  modal-name: Sahayika
+  logo: sahayika.png
+
+
+# - title: CodeBox
+#   event: HTML, CSS, JavaScript
+#   modal-name: CodeBox
+#   logo: codebox.png
+
+# - title: weMatter
+#   event: HTML, CSS, JavaScript
+#   modal-name: weMatter
+#   logo: weMatter.png
+
+# - title: Rent-It-All
+#   event: HTML, CSS, Bootstrap, JSP
+#   modal-name: Rent-It-All
+#   logo: Rent-It-All.png

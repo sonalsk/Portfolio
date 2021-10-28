@@ -26,4 +26,8 @@ toggle.addEventListener("click", () => {
   for (timelineCard of timelineCards) {
     timelineCard.classList.toggle("dark-mode-card");
   }
+
+  const commCard = document.querySelector(".blog-slider");
+  commCard.classList.toggle("dark-mode-card");
+
 });

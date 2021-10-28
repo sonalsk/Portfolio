@@ -1,10 +1,19 @@
-- course: BSc Computer Science
-  institute: University of Birmingham
-  dates: 2018 - 2021
-  logo: uob.png
+- course: Bachelor's Degree
+  major: Information Technology
+  institute: MSIT, Delhi
+  dates: 2019 - 2023
+  logo: msit.png
+  grade: CGPA - 9.2 / 10
   
-- course: Pre Fellowship Fellow
-  institute: MLH Fellowship
-  dates: Summer 2021
-  logo: fellowship.svg
+- course: Senior Secondary Education
+  institute: St. George’s School, Delhi 
+  dates: 2016 - 2018
+  logo: sgs.png
+  grade: Percentage - 93%
+
+- course: Secondary Education
+  institute: St. George’s School, Delhi 
+  dates: 2006 - 2016
+  logo: sgs.png
+  grade: CGPA - 9.0 / 10
   
