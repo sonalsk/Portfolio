@@ -24,6 +24,10 @@
     padding-bottom: 0.5rem;
 }
 
+.social-links a:hover{
+    color: var(--text);
+}
+
 .name-date {
     display: flex;
     justify-content: center;
